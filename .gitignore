@@ -1,0 +1,48 @@
+# Environment
+.env
+.env.*
+
+# Dependencies
+node_modules/
+
+# Build output
+www/
+dist/
+.cache/
+
+# Android build artifacts (android/ folder IS committed)
+android/local.properties
+android/.gradle/
+android/app/build/
+android/build/
+
+# iOS build artifacts (ios/ folder IS committed)
+ios/App/Pods/
+ios/App/.xcode.env.local
+
+# Firebase
+.firebase/
+firebase-debug.log
+firestore-debug.log
+storage-debug.log
+ui-debug.log
+database-debug.log
+
+# Testing
+coverage/
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/settings.json
+.idea/
+
+# APK signing
+*.jks
+*.keystore
