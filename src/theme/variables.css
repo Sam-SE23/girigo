@@ -1,2 +1,96 @@
-/* For information on how to create your own theme, please refer to:
-http://ionicframework.com/docs/theming/ */
+/* ─── Girigo Design Tokens ─────────────────────────────────────────────────── */
+/* All colours, spacing, and typography must reference these variables.         */
+/* Never hardcode hex values in component <style> blocks.                       */
+
+:root {
+  color-scheme: dark;
+
+  /* ── Colour: Backgrounds ── */
+  --color-bg-base:     #0a0a0a;
+  --color-bg-surface:  #1a1a1a;
+  --color-bg-elevated: #242424;
+
+  /* ── Colour: Borders ── */
+  --color-border: #2a2a2a;
+
+  /* ── Colour: Text ── */
+  --color-text-primary: #e8e8e8;
+  --color-text-muted:   #888888;
+
+  /* ── Colour: Accent ── */
+  --color-accent:     #6C3DE8;
+  --color-accent-glow: rgba(108, 61, 232, 0.3);
+
+  /* ── Colour: Status ── */
+  --color-status-pending:  #F59E0B;
+  --color-status-granted:  #10B981;
+  --color-status-rejected: #EF4444;
+
+  /* ── Colour: Semantic ── */
+  --color-danger:  #EF4444;
+  --color-success: #10B981;
+
+  /* ── Spacing Scale (8px base unit) ── */
+  --space-xs:  4px;
+  --space-sm:  8px;
+  --space-md:  16px;
+  --space-lg:  24px;
+  --space-xl:  32px;
+  --space-2xl: 48px;
+
+  /* ── Typography: Font Families ── */
+  --font-family-heading: 'Cormorant Garamond', serif;
+  --font-family-body:    'DM Sans', sans-serif;
+
+  /* ── Typography: Sizes ── */
+  --font-size-heading:    32px;
+  --font-size-subheading: 20px;
+  --font-size-body:       16px;
+  --font-size-small:      13px;
+  --font-size-label:      12px;
+
+  /* ── Typography: Weights ── */
+  --font-weight-regular: 400;
+  --font-weight-semibold: 600;
+
+  /* ── Transitions ── */
+  --transition-fast:     150ms ease;
+  --transition-standard: 300ms ease;
+
+  /* ── Ionic Overrides: map Ionic's system vars to our dark theme ── */
+  --ion-background-color:          #0a0a0a;
+  --ion-background-color-rgb:      10, 10, 10;
+  --ion-text-color:                #e8e8e8;
+  --ion-text-color-rgb:            232, 232, 232;
+  --ion-border-color:              #2a2a2a;
+  --ion-toolbar-background:        #0a0a0a;
+  --ion-toolbar-border-color:      #2a2a2a;
+  --ion-toolbar-color:             #e8e8e8;
+  --ion-tab-bar-background:        #0a0a0a;
+  --ion-tab-bar-border-color:      #2a2a2a;
+  --ion-item-background:           #1a1a1a;
+  --ion-card-background:           #1a1a1a;
+  --ion-overlay-background-color:  #1a1a1a;
+  --ion-color-step-50:   #111111;
+  --ion-color-step-100:  #1a1a1a;
+  --ion-color-step-150:  #202020;
+  --ion-color-step-200:  #2a2a2a;
+  --ion-color-step-250:  #333333;
+  --ion-color-step-300:  #3d3d3d;
+  --ion-color-step-350:  #474747;
+  --ion-color-step-400:  #525252;
+  --ion-color-step-450:  #5c5c5c;
+  --ion-color-step-500:  #666666;
+  --ion-color-step-550:  #717171;
+  --ion-color-step-600:  #7b7b7b;
+  --ion-color-step-650:  #858585;
+  --ion-color-step-900:  #cccccc;
+  --ion-color-step-950:  #e0e0e0;
+
+  /* ── Ionic Primary Colour: map to our accent ── */
+  --ion-color-primary:           #6C3DE8;
+  --ion-color-primary-rgb:       108, 61, 232;
+  --ion-color-primary-contrast:  #ffffff;
+  --ion-color-primary-shade:     #5f36cc;
+  --ion-color-primary-tint:      #7b50ea;
+}
